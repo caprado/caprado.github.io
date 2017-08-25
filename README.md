@@ -1,2 +1,2 @@
-# portfoliosite
-Setup with Jekyll / markdown
+# Github.io portfolio site
+Setup with Bootstrap / jQuery
