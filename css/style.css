@@ -9,6 +9,11 @@ html{
 	overflow-y: scroll;
 }
 
+a {
+    color: #d2d2d2;
+    text-decoration: none;
+}
+
 body{
 	background: none;
 	line-height: 1.5;
