@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+   color: #bbbbbb;
+}
+
 body{
 	background: none;
 	line-height: 1.5;
