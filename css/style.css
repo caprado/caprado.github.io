@@ -9,6 +9,15 @@ html{
 	overflow-y: scroll;
 }
 
+a {
+    color: #d2d2d2;
+    text-decoration: none;
+}
+
+a:hover {
+   color: #bbbbbb;
+}
+
 body{
 	background: none;
 	line-height: 1.5;
@@ -157,4 +166,12 @@ P{
 
 #form {
   padding-left: .5rem;
+}
+
+.about_bot-sect .about_point {
+    margin: 0 15px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    float: left;
 }
