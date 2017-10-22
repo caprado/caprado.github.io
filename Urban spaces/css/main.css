@@ -1,0 +1,282 @@
+*{
+    color:#808080;
+}
+
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.logo{
+    float: left;
+}
+
+.fa-bed{
+    color: #B78F69;
+}
+
+.top-section .callout{
+    background: url('../img/intro1.jpg') no-repeat center center;
+    background-size: 100% auto;
+    min-height: 100%;
+    padding-bottom: 550px;
+    background-position: 2px -275px;
+}
+
+.top-section .callout img{
+    padding-top: 1px;
+}
+
+.mobile-menu{
+    display: none;
+    }
+
+@media screen and (max-width : 1550px){
+    .top-section .callout{
+        background-size: 100% auto;
+        background-position: center;
+        padding-bottom: 550px;
+    } 
+}
+
+@media screen and (max-width : 1200px) {
+    .top-section .callout{
+        background-size: 1225px;
+        background-position: center;
+    } 
+    .mobile-menu{
+        display: inline-block;
+        position: absolute;
+        right: -40px;
+    }
+    .mobile-menu li{
+        display: inline-block;
+    }
+    .nav-links{
+        display: none;
+        margin-left: auto;
+        margin-right: -80px;
+    }
+    .intro {
+        padding-top: 50px;
+    }
+    .nav-links li{
+        margin-bottom: 1px;
+    }
+    .nav-links ul li, li a {
+        width: 100%;
+
+    }
+    .marketing-site-three-up .row {
+    display: inline !important;
+    max-width: 900px;
+}
+    .marketing-site-three-up {
+    margin-left: 120px;
+    margin-right: 120px;
+    }
+}
+@media screen and (max-width : 760px){
+    .top-section .callout{
+        background-size: 911px;
+        background-position: top;
+        padding-bottom: 325px;
+    } 
+    .marketing-site-three-up .row {
+    display: inline !important;
+    max-width: 900px;
+}
+    .marketing-site-three-up {
+    margin-left: 35px;
+    margin-right: 35px;
+    }
+}
+
+@media screen and (max-width : 550px){
+    .top-section .callout{
+        background-size: 800px;
+        background-position: center;
+        padding-bottom: 197px;
+    } 
+        .marketing-site-three-up {
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+}
+
+.nav-links{
+    position: absolute;
+    right: 0;
+    float:right;
+
+}
+
+.nav-links li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem 0;
+    font-family: inherit;
+    padding: 0.85em 1em;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #B78F69;
+    color: #fff;
+}
+
+.button:hover{
+    background-color: #927254;
+}
+
+.menu li i{
+    font-size: 20px;
+    text-decoration: none;
+    color: #808080;
+}
+
+.menu li a:hover{
+    color: #000;
+}
+
+
+/*Marketing bullet point section*/
+.marketing-site-three-up {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.marketing-site-three-up .row {
+    display: inline-flex;
+    max-width: 1449px;
+    padding-right: 55px;
+}
+
+.marketing-site-three-up .columns {
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-three-up .columns {
+    margin-bottom: 0;
+  }
+}
+
+.marketing-site-three-up .fa {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #B78F69;
+}
+
+.marketing-site-three-up-headline {
+    margin-bottom: 2rem;
+    font-size: 24px;
+}
+
+/*Featured product section*/
+.product-rev{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*Product showcase/buy option section*/
+.header-product1 {
+    color: white;
+    border: 16px solid #B78F69;
+    background: #B78F69;
+    margin-bottom: 25px;
+    border-radius: 0px;
+}
+
+.header-product2 {
+    color: white;
+    border: 16px solid #B78F69;
+    background: #B78F69;
+    margin-bottom: 25px;
+    border-radius: 0px;
+}
+
+.marketing-site-content-section {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.marketing-site-content-section .button.round {
+  border-radius: 5000px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.marketing-site-content-section .marketing-site-content-section-img {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+              -ms-grid-row-align: center;
+          align-self: center;
+  -webkit-flex: 1 0 100%;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+}
+
+.marketing-site-content-section .marketing-site-content-section-img img {
+  width: 100%;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-content-section .marketing-site-content-section-img {
+    -webkit-flex: 1 0 50%;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+  }
+}
+
+.marketing-site-content-section .marketing-site-content-section-block {
+  padding: 1rem;
+  -webkit-flex: 1 0 100%;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+  -webkit-align-self: stretch;
+      -ms-flex-item-align: stretch;
+          align-self: stretch;
+  background: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-content-section .marketing-site-content-section-block {
+    -webkit-flex: 1 0 50%;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+    padding: 2rem;
+  }
+}
+
+.marketing-site-content-section-block-header {
+  font-size: 24px;
+}
+
+.marketing-site-content-section-block-subheader {
+  font-size: 13px;
+}
