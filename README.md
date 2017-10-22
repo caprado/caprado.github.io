@@ -7,4 +7,6 @@
 * Add projects to portfolio
 * revamp site (possibly in hyper app)
 * Better Mobile support (SVG background issues)
-* Add Heroku support (Node.JS and Express.js application)  
+* Add Heroku support (Node.JS and Express.js application) 
+* Fix transitions on JavaScript classe
+* Add Wordpress sites into portfolio
