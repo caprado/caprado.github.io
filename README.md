@@ -1,4 +1,5 @@
 # Github.io portfolio site
+[![Build Status](https://caprado.github.io)](https://caprado.github.io)
 ##### [View Here](https://caprado.github.io)
 #### Currently setup with Bootstrap / jQuery / JavaScript
 ---
