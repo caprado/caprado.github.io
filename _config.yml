@@ -1,11 +1,11 @@
 # Site settings
 title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+email: chris.a.prado@gmail.com
+url: https://caprado.github.io
+description: "Christian Prado Web Developer Portfolio."
+keywords: "Christian, Prado, developer, frontend, react, javascript, css, html, sass, git, github"
 skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+meta_author: Prado Christian
 
 # Google webmaster tools
 google_verify:
@@ -32,31 +32,28 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Christian Prado
   location: Location
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
+  - title: linkedin
+    url: https://www.linkedin.com/in/christian-prado-1775b6b3/
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: http://stackoverflow.com/questions/tagged/caprado
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/caprado
+  - title: pinterest
+    url: http://pinterest.com/caprado
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Orange County, CA
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'It's exciting to have something that gives you a sense of purpose with an actual reach into the world.'
 
 # Build settings
 markdown: kramdown
