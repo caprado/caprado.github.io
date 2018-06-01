@@ -1,112 +1,147 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="">
+
 <head>
-    <meta charset="utf-8">
-    <title>Christian Prado</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional Bootstrap theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Concert+One" rel="stylesheet"> 
+  <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <style>
+        /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+    </style>
 </head>
+
 <body>
-  <nav class="navbar ">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a>
-      </div>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="https://github.com/caprado" target="_blank">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/christian-prado-1775b6b3/" target="_blank">LinkedIn</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-
-  <div class="container-fluid text-center">
-    <div class="jumbotron">
-      <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <h1>Thanks for getting in touch</h1>
-        <p class"lead">
-            Can't wait to hear from you.
-        </p>
+  <!-- Add your site or application content here -->
+  <div class="header-container">
+    <header>
+      <div class="bar"></div>
+      <div class="header-inner">
+        <div class="container">
+          <div class="row">
+        <div class="items-left col">
+          <a href="/index.html">Home</a>
+          <a href="https://www.linkedin.com/in/christian-prado-1775b6b3/" target="_blank">LinkedIn</a>
+        </div>
+        <div class="header-name col">
+          <span class="name">Christian&nbsp;Prado<hr>Developer</span>
+        </div>
+        <div class="items-right col">
+          <a href="https://www.github.com/caprado" target="_blank">GitHub</a>
+          <a href="/contact.html">Contact</a>
+        </div>
       </div>
       </div>
+      </div>
+    </header>
+    <div class="container contact">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <section>
+                    <div class="container">
+                      <form action="action_page.php">
+                    
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <button class="btn btn-primary">Submit</button>
+                    
+                      </form>
+                    </div>
+                </section>
+            </div>
+            <div class="col-2"></div>
+        </div>
     </div>
-  </div>
-
-  <div class="container-fluid">
-    <div class="col-md-6">
-      <p>
-
-      </p>
+    
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p style="font-size: 13px; padding-top: 18px;">Questions, Comments, Concerns? Email me! Would love to hear from you!</p>
+          </div>
+          <div class="col social">
+            <a href="https://www.github.com/caprado" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/christian-prado-1775b6b3/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:chris.a.prado@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="/christian_prado.pdf" target="_blank"><i class="far fa-file-pdf"></i></a>
+            <a href="/photos/index.html" target="_blank"><i class="far fa-image"></i></a>
+          </div>
+          <div class="col build">
+            <p>Built with the following technology:</p>
+            <p style="font-size: 10px;">Bootstrap, Material design, FontAwesome, Modernizer.js, Webpack, Gulp</p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+    <div class="bar copyfoot"><p>Made with <i class="fas fa-heart"></i> by Christian Prado</p></div>
 
-<div id="form" class="row">
-  <div class="col-md-6 contact-form">
-    <form>
-  <div class="form-group">
-    <label for="exampleInputName">Name</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Name">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail">Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputMessage">Message</label>
-    <textarea class="form-control" id="exampleInputMessage"></textarea>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
-  </div>
-</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
 
-<div class="container-fluid site-footer">
-  <div class="row">
-    <div class="col-md-12">
-      <p>
-          <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>714-721-3467
-      </p>
-      <p>
-          <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:chris.a.prado@gmail.com">chris.a.prado@gmail.com</a>
-      </p>
-      <p>
-          <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span><strong>Built with lots of Bootstrap, sprinkles of jQuery and plenty of love</strong>
-      </p>
-    </div>
-  </div>
-</div>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
 </html>
